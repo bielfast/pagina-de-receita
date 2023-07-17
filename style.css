@@ -19,20 +19,34 @@ body {
 
 #container {
   background: var(--bg-container-color);
+  padding: 0px 50px;
   margin: auto;
-  padding: auto;
+  border-radius: 20px;
+  width: 50%;
 }
 
-#container h3 {
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--title-subtitle-color);
+}
+h3 {
   font-size: 20px;
   font-weight: 700;
+  text-align: center;
   color: var(--title-subtitle-color);
 }
 
 #container ul ol p {
   font-size: 16px;
   font-weight: 400;
+  line-height: 10rem;
   color: var(--list-color);
+}
+
+#container li {
+  line-height: 35px;
 }
 
 #container figure {
@@ -40,7 +54,12 @@ body {
   color: var(--footer-figure-color);
 }
 
-#container img {
-  width: auto;
-  height: 480px;
+img {
+  display: block;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
 }
