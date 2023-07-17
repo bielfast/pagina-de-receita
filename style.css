@@ -15,22 +15,24 @@ body {
   padding: auto;
 }
 
-#container h3{
+#container h3 {
   font-size: 20px;
   font-weight: 700;
+  color: #1b1b1b;
 }
 
-#container ul ol p{
+#container ul ol p {
   font-size: 16px;
   font-weight: 400;
+  color: #39393a;
 }
 
 #container figure {
   font-size: 12px;
+  color: #8f8f8f;
 }
 
 #container img {
   width: auto;
   height: 480px;
 }
-
