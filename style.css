@@ -17,15 +17,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-#container {
-  background: var(--bg-container-color);
-  padding: 0px 50px;
-  margin: auto;
-  border-radius: 20px;
-  width: 50%;
-}
-
 h1 {
+  padding-top: 50px;
   font-size: 28px;
   font-weight: 700;
   text-align: center;
@@ -38,15 +31,42 @@ h3 {
   color: var(--title-subtitle-color);
 }
 
-#container ul ol p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 10rem;
-  color: var(--list-color);
+figcaption{
+  text-align: right;
+  padding-right: 25px;
 }
 
+#container {
+  background: var(--bg-container-color);
+  margin: auto;
+  border-radius: 20px;
+  width: 50%;
+}
+
+
 #container li {
-  line-height: 35px;
+  color: var(--list-color);
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  list-style-position: inside;
+  text-align: left;
+  padding-left: 20px;
+}
+
+#container ul{
+  padding: 24px 0;
+}
+
+#container ol{
+  padding: 24px 0;
+}
+
+#container p{
+  line-height: 50px;
+  padding-left: 20px;
+  font-weight: 400;
+  color: var(--list-color);
 }
 
 #container figure {
@@ -54,12 +74,11 @@ h3 {
   color: var(--footer-figure-color);
 }
 
-img {
-  display: block;
+#container img {
+  display: flex;
   border-radius: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 480px;
-  height: 200px;
+  margin: auto;  
+  width: 750px;
+  height:200px;
   object-fit: cover;
 }
