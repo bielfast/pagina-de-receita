@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eaeaea;
+  font-family: "Roboto", sans-serif;
+}
+
+#container {
+  background: #ffffff;
+  margin: auto;
+  padding: auto;
+}
+
+#container h3{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#container ul ol p{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#container figure {
+  font-size: 12px;
+}
+
+#container img {
+  width: auto;
+  height: 480px;
+}
+
